@@ -1,0 +1,4 @@
+Company A was founded in 2018 and immediately started developing NLP_Engine_v1.
+By December 2019, the development of NLP_Engine_v1 was successfully completed.
+In May 2020, Company A was acquired by the tech giant Company B.
+Following the acquisition, Company B released the upgraded NLP_Engine_v2 to the public in June 2021.

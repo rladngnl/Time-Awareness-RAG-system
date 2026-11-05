@@ -1,0 +1,100 @@
+{
+    "Apex Corp__OmniGlobal": {
+        "edge_id": "OmniGlobal__Apex Corp",
+        "lookup_key": "Apex Corp__OmniGlobal",
+        "source": "OmniGlobal",
+        "target": "Apex Corp",
+        "keywords": "ownership,relationship_keywords#acquired",
+        "relation_desc": "relationship_description>Omniglobal acquired Apex Corp in November 2022, gaining full ownership of Project Chronos",
+        "start_time": "2022-11",
+        "end_time": "2022-11",
+        "temporal_note": "OmniGlobal acquired Apex Corp, gaining full ownership of Project Chronos",
+        "chunk_ids": [
+            "doc-3479fab6e1e0f87b633fe826d1e6f1f5-chunk-000"
+        ]
+    },
+    "NovaTech__OmniGlobal": {
+        "edge_id": "OmniGlobal__NovaTech",
+        "lookup_key": "NovaTech__OmniGlobal",
+        "source": "OmniGlobal",
+        "target": "NovaTech",
+        "keywords": "relationship_keywords#acquired,spun off",
+        "relation_desc": "relationship_description>OmniGlobal spun off its AI division and sold Project Chronos to Vertex AI in February 2024",
+        "start_time": "2024-02-01",
+        "end_time": "2024-02-28",
+        "temporal_note": "OmniGlobal spun off its AI division and sold Project Chronos to Vertex AI in February 2024",
+        "chunk_ids": [
+            "doc-3479fab6e1e0f87b633fe826d1e6f1f5-chunk-000"
+        ]
+    },
+    "Apex Corp__NovaTech": {
+        "edge_id": "Apex Corp__NovaTech",
+        "lookup_key": "Apex Corp__NovaTech",
+        "source": "Apex Corp",
+        "target": "NovaTech",
+        "keywords": "ownership,relationship_keywords#sold",
+        "relation_desc": "relationship_description>NovaTech sold the ownership rights of Project Chronos to Apex Corp in August 2020",
+        "start_time": "2020-08",
+        "end_time": "2020-08",
+        "temporal_note": "Ownership rights of Project Chronos were sold to Apex Corp in August 2020",
+        "chunk_ids": [
+            "doc-3479fab6e1e0f87b633fe826d1e6f1f5-chunk-000"
+        ]
+    },
+    "NovaTech__Vertex AI": {
+        "edge_id": "NovaTech__Vertex AI",
+        "lookup_key": "NovaTech__Vertex AI",
+        "source": "NovaTech",
+        "target": "Vertex AI",
+        "keywords": "ownership,relationship_keywords#acquired",
+        "relation_desc": "relationship_description>Vertex AI acquired Project Chronos from OmniGlobal in February 2024",
+        "start_time": "2024-02-01",
+        "end_time": "2024-02-28",
+        "temporal_note": "Vertex AI acquired Project Chronos from OmniGlobal in February 2024",
+        "chunk_ids": [
+            "doc-3479fab6e1e0f87b633fe826d1e6f1f5-chunk-000"
+        ]
+    },
+    "Bob Miller__NovaTech": {
+        "edge_id": "NovaTech__Bob Miller",
+        "lookup_key": "Bob Miller__NovaTech",
+        "source": "NovaTech",
+        "target": "Bob Miller",
+        "keywords": "CEO,relationship_keywords#appointed",
+        "relation_desc": "relationship_description>Bob Miller was appointed as the CEO of NovaTech in May 2019",
+        "start_time": "2019-05",
+        "end_time": "Unknown",
+        "temporal_note": "Bob Miller's appointment as CEO of NovaTech is a single point-in-time action, and there is no clear end date mentioned in the source text.",
+        "chunk_ids": [
+            "doc-3479fab6e1e0f87b633fe826d1e6f1f5-chunk-000"
+        ]
+    },
+    "NovaTech__Sarah Jenkins": {
+        "edge_id": "NovaTech__Sarah Jenkins",
+        "lookup_key": "NovaTech__Sarah Jenkins",
+        "source": "NovaTech",
+        "target": "Sarah Jenkins",
+        "keywords": "CEO,relationship_keywords#appointed",
+        "relation_desc": "relationship_description>Sarah Jenkins was appointed as the CEO of NovaTech in March 2021",
+        "start_time": "2021-03",
+        "end_time": "Unknown",
+        "temporal_note": "Sarah Jenkins' appointment as CEO of NovaTech is a single point-in-time action, and there is no clear end date mentioned in the source text.",
+        "chunk_ids": [
+            "doc-3479fab6e1e0f87b633fe826d1e6f1f5-chunk-000"
+        ]
+    },
+    "Dr. Alice Vance__NovaTech": {
+        "edge_id": "NovaTech__Dr. Alice Vance",
+        "lookup_key": "Dr. Alice Vance__NovaTech",
+        "source": "NovaTech",
+        "target": "Dr. Alice Vance",
+        "keywords": "CEO,relationship_keywords#founded",
+        "relation_desc": "relationship_description>Dr. Alice Vance founded NovaTech and served as its first CEO from January 2017 to May 2019",
+        "start_time": "2017-01",
+        "end_time": "2019-05",
+        "temporal_note": "Dr. Alice Vance served as the first CEO of NovaTech from its founding in January 2017 to her stepping down in May 2019.",
+        "chunk_ids": [
+            "doc-3479fab6e1e0f87b633fe826d1e6f1f5-chunk-000"
+        ]
+    }
+}

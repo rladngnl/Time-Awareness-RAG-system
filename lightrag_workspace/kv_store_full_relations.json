@@ -1,0 +1,38 @@
+{
+  "doc-3479fab6e1e0f87b633fe826d1e6f1f5": {
+    "relation_pairs": [
+      [
+        "Apex Corp",
+        "NovaTech"
+      ],
+      [
+        "Apex Corp",
+        "OmniGlobal"
+      ],
+      [
+        "Bob Miller",
+        "NovaTech"
+      ],
+      [
+        "Dr. Alice Vance",
+        "NovaTech"
+      ],
+      [
+        "NovaTech",
+        "OmniGlobal"
+      ],
+      [
+        "NovaTech",
+        "Sarah Jenkins"
+      ],
+      [
+        "NovaTech",
+        "Vertex AI"
+      ]
+    ],
+    "count": 7,
+    "create_time": 1791985261,
+    "update_time": 1791985261,
+    "_id": "doc-3479fab6e1e0f87b633fe826d1e6f1f5"
+  }
+}

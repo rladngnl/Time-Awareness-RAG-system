@@ -1,0 +1,29 @@
+{
+  "doc-3479fab6e1e0f87b633fe826d1e6f1f5": {
+    "status": "processed",
+    "content_summary": "In November 2022, OmniGlobal acquired Apex Corp, which resulted in OmniGlobal taking full ownership of Project Chronos. Prior to this acquisition, back in March 2021, the board of NovaTech had dismissed Bob Miller and appointed Sarah Jenkins as the n...",
+    "content_length": 1129,
+    "created_at": "2026-10-14T13:36:30.300938+00:00",
+    "updated_at": "2026-10-14T13:41:03.951934+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20261014_223630_9576c533",
+    "content_hash": "3479fab6e1e0f87b633fe826d1e6f1f5",
+    "metadata": {
+      "parse_start_time": 1791984990,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1791984990,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1791984990,
+      "process_end_time": 1791985263,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "doc-3479fab6e1e0f87b633fe826d1e6f1f5-chunk-000"
+    ]
+  }
+}

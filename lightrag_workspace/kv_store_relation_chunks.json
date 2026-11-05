@@ -1,0 +1,65 @@
+{
+  "Apex Corp<SEP>OmniGlobal": {
+    "chunk_ids": [
+      "doc-3479fab6e1e0f87b633fe826d1e6f1f5-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1791985261,
+    "update_time": 1791985261,
+    "_id": "Apex Corp<SEP>OmniGlobal"
+  },
+  "NovaTech<SEP>OmniGlobal": {
+    "chunk_ids": [
+      "doc-3479fab6e1e0f87b633fe826d1e6f1f5-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1791985261,
+    "update_time": 1791985261,
+    "_id": "NovaTech<SEP>OmniGlobal"
+  },
+  "NovaTech<SEP>Vertex AI": {
+    "chunk_ids": [
+      "doc-3479fab6e1e0f87b633fe826d1e6f1f5-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1791985261,
+    "update_time": 1791985261,
+    "_id": "NovaTech<SEP>Vertex AI"
+  },
+  "Bob Miller<SEP>NovaTech": {
+    "chunk_ids": [
+      "doc-3479fab6e1e0f87b633fe826d1e6f1f5-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1791985261,
+    "update_time": 1791985261,
+    "_id": "Bob Miller<SEP>NovaTech"
+  },
+  "NovaTech<SEP>Sarah Jenkins": {
+    "chunk_ids": [
+      "doc-3479fab6e1e0f87b633fe826d1e6f1f5-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1791985261,
+    "update_time": 1791985261,
+    "_id": "NovaTech<SEP>Sarah Jenkins"
+  },
+  "Dr. Alice Vance<SEP>NovaTech": {
+    "chunk_ids": [
+      "doc-3479fab6e1e0f87b633fe826d1e6f1f5-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1791985261,
+    "update_time": 1791985261,
+    "_id": "Dr. Alice Vance<SEP>NovaTech"
+  },
+  "Apex Corp<SEP>NovaTech": {
+    "chunk_ids": [
+      "doc-3479fab6e1e0f87b633fe826d1e6f1f5-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1791985261,
+    "update_time": 1791985261,
+    "_id": "Apex Corp<SEP>NovaTech"
+  }
+}

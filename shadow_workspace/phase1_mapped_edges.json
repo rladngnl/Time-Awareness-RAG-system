@@ -1,0 +1,79 @@
+[
+    {
+        "edge_id": "OmniGlobal__Apex Corp",
+        "source": "OmniGlobal",
+        "target": "Apex Corp",
+        "relation_desc": "relationship_description>Omniglobal acquired Apex Corp in November 2022, gaining full ownership of Project Chronos",
+        "keywords": "ownership,relationship_keywords#acquired",
+        "chunk_ids": [
+            "doc-3479fab6e1e0f87b633fe826d1e6f1f5-chunk-000"
+        ],
+        "source_text": "In November 2022, OmniGlobal acquired Apex Corp, which resulted in OmniGlobal taking full ownership of Project Chronos. Prior to this acquisition, back in March 2021, the board of NovaTech had dismissed Bob Miller and appointed Sarah Jenkins as the new CEO of NovaTech.\n\nLooking back at the origin of the technology, NovaTech was originally founded in January 2017 by Dr. Alice Vance, who served as its first CEO. Immediately after founding the company in January 2017, NovaTech initiated the development of Project Chronos. However, in August 2020, facing severe financial difficulties, NovaTech sold the ownership rights of Project Chronos to Apex Corp.\n\nThe most recent corporate restructuring occurred in February 2024, when OmniGlobal spun off its AI division and sold Project Chronos to Vertex AI, making Vertex AI the current owner of Project Chronos. Earlier, in May 2019, Dr. Alice Vance had stepped down, and Bob Miller was appointed to replace her as the CEO of NovaTech. Interestingly, in April 2024, following Sarah Jenkins' sudden resignation, NovaTech's board re-appointed Bob Miller as the acting CEO of NovaTech."
+    },
+    {
+        "edge_id": "OmniGlobal__NovaTech",
+        "source": "OmniGlobal",
+        "target": "NovaTech",
+        "relation_desc": "relationship_description>OmniGlobal spun off its AI division and sold Project Chronos to Vertex AI in February 2024",
+        "keywords": "relationship_keywords#acquired,spun off",
+        "chunk_ids": [
+            "doc-3479fab6e1e0f87b633fe826d1e6f1f5-chunk-000"
+        ],
+        "source_text": "In November 2022, OmniGlobal acquired Apex Corp, which resulted in OmniGlobal taking full ownership of Project Chronos. Prior to this acquisition, back in March 2021, the board of NovaTech had dismissed Bob Miller and appointed Sarah Jenkins as the new CEO of NovaTech.\n\nLooking back at the origin of the technology, NovaTech was originally founded in January 2017 by Dr. Alice Vance, who served as its first CEO. Immediately after founding the company in January 2017, NovaTech initiated the development of Project Chronos. However, in August 2020, facing severe financial difficulties, NovaTech sold the ownership rights of Project Chronos to Apex Corp.\n\nThe most recent corporate restructuring occurred in February 2024, when OmniGlobal spun off its AI division and sold Project Chronos to Vertex AI, making Vertex AI the current owner of Project Chronos. Earlier, in May 2019, Dr. Alice Vance had stepped down, and Bob Miller was appointed to replace her as the CEO of NovaTech. Interestingly, in April 2024, following Sarah Jenkins' sudden resignation, NovaTech's board re-appointed Bob Miller as the acting CEO of NovaTech."
+    },
+    {
+        "edge_id": "Apex Corp__NovaTech",
+        "source": "Apex Corp",
+        "target": "NovaTech",
+        "relation_desc": "relationship_description>NovaTech sold the ownership rights of Project Chronos to Apex Corp in August 2020",
+        "keywords": "ownership,relationship_keywords#sold",
+        "chunk_ids": [
+            "doc-3479fab6e1e0f87b633fe826d1e6f1f5-chunk-000"
+        ],
+        "source_text": "In November 2022, OmniGlobal acquired Apex Corp, which resulted in OmniGlobal taking full ownership of Project Chronos. Prior to this acquisition, back in March 2021, the board of NovaTech had dismissed Bob Miller and appointed Sarah Jenkins as the new CEO of NovaTech.\n\nLooking back at the origin of the technology, NovaTech was originally founded in January 2017 by Dr. Alice Vance, who served as its first CEO. Immediately after founding the company in January 2017, NovaTech initiated the development of Project Chronos. However, in August 2020, facing severe financial difficulties, NovaTech sold the ownership rights of Project Chronos to Apex Corp.\n\nThe most recent corporate restructuring occurred in February 2024, when OmniGlobal spun off its AI division and sold Project Chronos to Vertex AI, making Vertex AI the current owner of Project Chronos. Earlier, in May 2019, Dr. Alice Vance had stepped down, and Bob Miller was appointed to replace her as the CEO of NovaTech. Interestingly, in April 2024, following Sarah Jenkins' sudden resignation, NovaTech's board re-appointed Bob Miller as the acting CEO of NovaTech."
+    },
+    {
+        "edge_id": "NovaTech__Vertex AI",
+        "source": "NovaTech",
+        "target": "Vertex AI",
+        "relation_desc": "relationship_description>Vertex AI acquired Project Chronos from OmniGlobal in February 2024",
+        "keywords": "ownership,relationship_keywords#acquired",
+        "chunk_ids": [
+            "doc-3479fab6e1e0f87b633fe826d1e6f1f5-chunk-000"
+        ],
+        "source_text": "In November 2022, OmniGlobal acquired Apex Corp, which resulted in OmniGlobal taking full ownership of Project Chronos. Prior to this acquisition, back in March 2021, the board of NovaTech had dismissed Bob Miller and appointed Sarah Jenkins as the new CEO of NovaTech.\n\nLooking back at the origin of the technology, NovaTech was originally founded in January 2017 by Dr. Alice Vance, who served as its first CEO. Immediately after founding the company in January 2017, NovaTech initiated the development of Project Chronos. However, in August 2020, facing severe financial difficulties, NovaTech sold the ownership rights of Project Chronos to Apex Corp.\n\nThe most recent corporate restructuring occurred in February 2024, when OmniGlobal spun off its AI division and sold Project Chronos to Vertex AI, making Vertex AI the current owner of Project Chronos. Earlier, in May 2019, Dr. Alice Vance had stepped down, and Bob Miller was appointed to replace her as the CEO of NovaTech. Interestingly, in April 2024, following Sarah Jenkins' sudden resignation, NovaTech's board re-appointed Bob Miller as the acting CEO of NovaTech."
+    },
+    {
+        "edge_id": "NovaTech__Bob Miller",
+        "source": "NovaTech",
+        "target": "Bob Miller",
+        "relation_desc": "relationship_description>Bob Miller was appointed as the CEO of NovaTech in May 2019",
+        "keywords": "CEO,relationship_keywords#appointed",
+        "chunk_ids": [
+            "doc-3479fab6e1e0f87b633fe826d1e6f1f5-chunk-000"
+        ],
+        "source_text": "In November 2022, OmniGlobal acquired Apex Corp, which resulted in OmniGlobal taking full ownership of Project Chronos. Prior to this acquisition, back in March 2021, the board of NovaTech had dismissed Bob Miller and appointed Sarah Jenkins as the new CEO of NovaTech.\n\nLooking back at the origin of the technology, NovaTech was originally founded in January 2017 by Dr. Alice Vance, who served as its first CEO. Immediately after founding the company in January 2017, NovaTech initiated the development of Project Chronos. However, in August 2020, facing severe financial difficulties, NovaTech sold the ownership rights of Project Chronos to Apex Corp.\n\nThe most recent corporate restructuring occurred in February 2024, when OmniGlobal spun off its AI division and sold Project Chronos to Vertex AI, making Vertex AI the current owner of Project Chronos. Earlier, in May 2019, Dr. Alice Vance had stepped down, and Bob Miller was appointed to replace her as the CEO of NovaTech. Interestingly, in April 2024, following Sarah Jenkins' sudden resignation, NovaTech's board re-appointed Bob Miller as the acting CEO of NovaTech."
+    },
+    {
+        "edge_id": "NovaTech__Sarah Jenkins",
+        "source": "NovaTech",
+        "target": "Sarah Jenkins",
+        "relation_desc": "relationship_description>Sarah Jenkins was appointed as the CEO of NovaTech in March 2021",
+        "keywords": "CEO,relationship_keywords#appointed",
+        "chunk_ids": [
+            "doc-3479fab6e1e0f87b633fe826d1e6f1f5-chunk-000"
+        ],
+        "source_text": "In November 2022, OmniGlobal acquired Apex Corp, which resulted in OmniGlobal taking full ownership of Project Chronos. Prior to this acquisition, back in March 2021, the board of NovaTech had dismissed Bob Miller and appointed Sarah Jenkins as the new CEO of NovaTech.\n\nLooking back at the origin of the technology, NovaTech was originally founded in January 2017 by Dr. Alice Vance, who served as its first CEO. Immediately after founding the company in January 2017, NovaTech initiated the development of Project Chronos. However, in August 2020, facing severe financial difficulties, NovaTech sold the ownership rights of Project Chronos to Apex Corp.\n\nThe most recent corporate restructuring occurred in February 2024, when OmniGlobal spun off its AI division and sold Project Chronos to Vertex AI, making Vertex AI the current owner of Project Chronos. Earlier, in May 2019, Dr. Alice Vance had stepped down, and Bob Miller was appointed to replace her as the CEO of NovaTech. Interestingly, in April 2024, following Sarah Jenkins' sudden resignation, NovaTech's board re-appointed Bob Miller as the acting CEO of NovaTech."
+    },
+    {
+        "edge_id": "NovaTech__Dr. Alice Vance",
+        "source": "NovaTech",
+        "target": "Dr. Alice Vance",
+        "relation_desc": "relationship_description>Dr. Alice Vance founded NovaTech and served as its first CEO from January 2017 to May 2019",
+        "keywords": "CEO,relationship_keywords#founded",
+        "chunk_ids": [
+            "doc-3479fab6e1e0f87b633fe826d1e6f1f5-chunk-000"
+        ],
+        "source_text": "In November 2022, OmniGlobal acquired Apex Corp, which resulted in OmniGlobal taking full ownership of Project Chronos. Prior to this acquisition, back in March 2021, the board of NovaTech had dismissed Bob Miller and appointed Sarah Jenkins as the new CEO of NovaTech.\n\nLooking back at the origin of the technology, NovaTech was originally founded in January 2017 by Dr. Alice Vance, who served as its first CEO. Immediately after founding the company in January 2017, NovaTech initiated the development of Project Chronos. However, in August 2020, facing severe financial difficulties, NovaTech sold the ownership rights of Project Chronos to Apex Corp.\n\nThe most recent corporate restructuring occurred in February 2024, when OmniGlobal spun off its AI division and sold Project Chronos to Vertex AI, making Vertex AI the current owner of Project Chronos. Earlier, in May 2019, Dr. Alice Vance had stepped down, and Bob Miller was appointed to replace her as the CEO of NovaTech. Interestingly, in April 2024, following Sarah Jenkins' sudden resignation, NovaTech's board re-appointed Bob Miller as the acting CEO of NovaTech."
+    }
+]

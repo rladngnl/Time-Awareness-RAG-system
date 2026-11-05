@@ -1,0 +1,60 @@
+=====================================================================================
+🕒 [Phase 2 결과 리포트] Shadow Temporal Index 구축 완료 (총 7개 엣지)
+=====================================================================================
+
+### 1. Chronological Cypher Table 미리보기 (시간순 정렬)
+| Timestamp | Cypher Relation Pattern | Description |
+| :--- | :--- | :--- |
+| 2017-01 ~ 2019-05 | (NovaTech)-[:CEO,relationship_keywords#founded]->(Dr. Alice Vance) | relationship_description>Dr. Alice Vance founded NovaTech and served as its first CEO from January 2017 to May 2019 |
+| 2019-05 ~ Unknown | (NovaTech)-[:CEO,relationship_keywords#appointed]->(Bob Miller) | relationship_description>Bob Miller was appointed as the CEO of NovaTech in May 2019 |
+| 2020-08 | (Apex Corp)-[:ownership,relationship_keywords#sold]->(NovaTech) | relationship_description>NovaTech sold the ownership rights of Project Chronos to Apex Corp in August 2020 |
+| 2021-03 ~ Unknown | (NovaTech)-[:CEO,relationship_keywords#appointed]->(Sarah Jenkins) | relationship_description>Sarah Jenkins was appointed as the CEO of NovaTech in March 2021 |
+| 2022-11 | (OmniGlobal)-[:ownership,relationship_keywords#acquired]->(Apex Corp) | relationship_description>Omniglobal acquired Apex Corp in November 2022, gaining full ownership of Project Chronos |
+| 2024-02-01 ~ 2024-02-28 | (OmniGlobal)-[:relationship_keywords#acquired,spun off]->(NovaTech) | relationship_description>OmniGlobal spun off its AI division and sold Project Chronos to Vertex AI in February 2024 |
+| 2024-02-01 ~ 2024-02-28 | (NovaTech)-[:ownership,relationship_keywords#acquired]->(Vertex AI) | relationship_description>Vertex AI acquired Project Chronos from OmniGlobal in February 2024 |
+
+=====================================================================================
+### 2. 개별 엣지 상세 추출 내역
+
+[1] Lookup Key: Dr. Alice Vance__NovaTech
+  • 관계: (NovaTech) ---[CEO,relationship_keywords#founded]---> (Dr. Alice Vance)
+  • 추출 시간: 2017-01 ~ 2019-05
+  • 추론 근거: Dr. Alice Vance served as the first CEO of NovaTech from its founding in January 2017 to her stepping down in May 2019.
+  • 설명: relationship_description>Dr. Alice Vance founded NovaTech and served as its first CEO from January 2017 to May 2019
+-------------------------------------------------------------------------------------
+[2] Lookup Key: Bob Miller__NovaTech
+  • 관계: (NovaTech) ---[CEO,relationship_keywords#appointed]---> (Bob Miller)
+  • 추출 시간: 2019-05 ~ Unknown
+  • 추론 근거: Bob Miller's appointment as CEO of NovaTech is a single point-in-time action, and there is no clear end date mentioned in the source text.
+  • 설명: relationship_description>Bob Miller was appointed as the CEO of NovaTech in May 2019
+-------------------------------------------------------------------------------------
+[3] Lookup Key: Apex Corp__NovaTech
+  • 관계: (Apex Corp) ---[ownership,relationship_keywords#sold]---> (NovaTech)
+  • 추출 시간: 2020-08 ~ 2020-08
+  • 추론 근거: Ownership rights of Project Chronos were sold to Apex Corp in August 2020
+  • 설명: relationship_description>NovaTech sold the ownership rights of Project Chronos to Apex Corp in August 2020
+-------------------------------------------------------------------------------------
+[4] Lookup Key: NovaTech__Sarah Jenkins
+  • 관계: (NovaTech) ---[CEO,relationship_keywords#appointed]---> (Sarah Jenkins)
+  • 추출 시간: 2021-03 ~ Unknown
+  • 추론 근거: Sarah Jenkins' appointment as CEO of NovaTech is a single point-in-time action, and there is no clear end date mentioned in the source text.
+  • 설명: relationship_description>Sarah Jenkins was appointed as the CEO of NovaTech in March 2021
+-------------------------------------------------------------------------------------
+[5] Lookup Key: Apex Corp__OmniGlobal
+  • 관계: (OmniGlobal) ---[ownership,relationship_keywords#acquired]---> (Apex Corp)
+  • 추출 시간: 2022-11 ~ 2022-11
+  • 추론 근거: OmniGlobal acquired Apex Corp, gaining full ownership of Project Chronos
+  • 설명: relationship_description>Omniglobal acquired Apex Corp in November 2022, gaining full ownership of Project Chronos
+-------------------------------------------------------------------------------------
+[6] Lookup Key: NovaTech__OmniGlobal
+  • 관계: (OmniGlobal) ---[relationship_keywords#acquired,spun off]---> (NovaTech)
+  • 추출 시간: 2024-02-01 ~ 2024-02-28
+  • 추론 근거: OmniGlobal spun off its AI division and sold Project Chronos to Vertex AI in February 2024
+  • 설명: relationship_description>OmniGlobal spun off its AI division and sold Project Chronos to Vertex AI in February 2024
+-------------------------------------------------------------------------------------
+[7] Lookup Key: NovaTech__Vertex AI
+  • 관계: (NovaTech) ---[ownership,relationship_keywords#acquired]---> (Vertex AI)
+  • 추출 시간: 2024-02-01 ~ 2024-02-28
+  • 추론 근거: Vertex AI acquired Project Chronos from OmniGlobal in February 2024
+  • 설명: relationship_description>Vertex AI acquired Project Chronos from OmniGlobal in February 2024
+-------------------------------------------------------------------------------------
