@@ -1,0 +1,57 @@
+==========================================================================================
+🏆 [Phase 4 최종 리포트 v2.0] Shadow TKG-RAG 결과
+==========================================================================================
+
+❓ Query: Trace the complete chronological ownership history of Project Chronos from its creation to the present, identify who currently owns Project Chronos, and explain the exact chronological order of NovaTech's CEOs including who the current CEO is.
+
+🚀 [Proposed] Shadow TKG-RAG 최종 답변
+------------------------------------------------------------------------------------------
+**Chronological Reasoning (Step-by-Step Timeline)**
+
+1. **January 2017**: NovaTech was founded by Dr. Alice Vance, and immediately initiated the development of Project Chronos.
+2. **August 2020**: NovaTech sold the ownership rights of Project Chronos to Apex Corp.
+3. **May 2019**: Bob Miller was appointed as the CEO of NovaTech.
+4. **March 2021**: The board of NovaTech dismissed Bob Miller and appointed Sarah Jenkins as the new CEO of NovaTech.
+5. **November 2022**: OmniGlobal acquired Apex Corp, gaining full ownership of Project Chronos.
+6. **February 2024**: OmniGlobal spun off its AI division and sold Project Chronos to Vertex AI, making Vertex AI the current owner of Project Chronos.
+7. **April 2024**: Following Sarah Jenkins' sudden resignation, NovaTech's board re-appointed Bob Miller as the acting CEO of NovaTech.
+
+**Final Answer**
+
+The complete chronological ownership history of Project Chronos is as follows:
+
+1. **January 2017**: NovaTech (founded by Dr. Alice Vance) initiated the development of Project Chronos.
+2. **August 2020**: NovaTech sold the ownership rights of Project Chronos to Apex Corp.
+3. **November 2022**: OmniGlobal acquired Apex Corp, gaining full ownership of Project Chronos.
+4. **February 2024**: OmniGlobal spun off its AI division and sold Project Chronos to Vertex AI, making Vertex AI the current owner of Project Chronos.
+
+As for NovaTech's CEOs, the exact chronological order is:
+
+1. **January 2017**: Dr. Alice Vance (founding CEO)
+2. **May 2019**: Bob Miller (appointed as CEO)
+3. **March 2021**: Sarah Jenkins (appointed as CEO)
+4. **April 2024**: Bob Miller (re-appointed as acting CEO following Sarah Jenkins' sudden resignation)
+
+The current CEO of NovaTech is Bob Miller, who was re-appointed as the acting CEO in April 2024.
+
+🐢 [Baseline] 순정 LightRAG 컨텍스트 기반 답변
+------------------------------------------------------------------------------------------
+Based on the provided context, here's the answer to the user's question:
+
+**Chronological Ownership History of Project Chronos:**
+
+1. January 2017: NovaTech, founded by Dr. Alice Vance, initiates the development of Project Chronos.
+2. August 2020: NovaTech sells the ownership rights of Project Chronos to Apex Corp.
+3. November 2022: OmniGlobal acquires Apex Corp, gaining full ownership of Project Chronos.
+4. February 2024: OmniGlobal spins off its AI division and sells Project Chronos to Vertex AI, making Vertex AI the current owner of Project Chronos.
+
+**NovaTech's CEOs:**
+
+1. January 2017 - May 2019: Dr. Alice Vance (Founder and first CEO)
+2. May 2019 - March 2021: Bob Miller (Appointed as CEO after Dr. Alice Vance's resignation)
+3. March 2021 - April 2024: Sarah Jenkins (Appointed as CEO after Bob Miller's departure)
+4. April 2024 - Present: Bob Miller (Re-appointed as acting CEO after Sarah Jenkins' sudden resignation)
+
+**Current Owner of Project Chronos:**
+
+Vertex AI, which acquired Project Chronos from OmniGlobal in February 2024, is the current owner of Project Chronos.

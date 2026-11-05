@@ -1,0 +1,63 @@
+===============================================================================================
+🕒 [Phase 2 v2.0 리포트] 다중 시점 분해 완료
+===============================================================================================
+
+| 2017-01~Present | (OmniGlobal)-[:FOUNDED]->(Apex Corp) | NovaTech was founded by Dr. Alice Vance |
+| 2017-01~Present | (OmniGlobal)-[:INITIATED]->(Apex Corp) | NovaTech initiated the development of Project Chronos |
+| 2017-01~Present | (Apex Corp)-[:FOUNDED]->(NovaTech) | NovaTech was founded by Dr. Alice Vance |
+| 2017-01~Present | (Apex Corp)-[:INITIATED_DEVELOPMENT]->(NovaTech) | NovaTech initiated the development of Project Chronos |
+| 2017-01~Present | (NovaTech)-[:FOUNDED]->(Bob Miller) | NovaTech was founded by Dr. Alice Vance |
+| 2017-01~Present | (NovaTech)-[:INITIATED]->(Bob Miller) | NovaTech initiated the development of Project Chronos |
+| 2017-01~Present | (NovaTech)-[:FOUNDED]->(Sarah Jenkins) | NovaTech was founded by Dr. Alice Vance |
+| 2017-01~Present | (NovaTech)-[:INITIATED]->(Sarah Jenkins) | NovaTech initiated the development of Project Chronos |
+| 2019-05~Present | (OmniGlobal)-[:APPOINTED_CEO]->(Apex Corp) | Bob Miller was appointed as the CEO of NovaTech |
+| 2019-05~Present | (Apex Corp)-[:APPOINTED_CEO]->(NovaTech) | Bob Miller was appointed as the CEO of NovaTech |
+| 2019-05~Present | (NovaTech)-[:APPOINTED_CEO]->(Bob Miller) | Bob Miller was appointed as the CEO of NovaTech |
+| 2019-05~Present | (NovaTech)-[:APPOINTED]->(Sarah Jenkins) | Bob Miller was appointed as the CEO of NovaTech |
+| 2020-08~Present | (OmniGlobal)-[:SOLD_PROJECT]->(Apex Corp) | NovaTech sold the ownership rights of Project Chronos to Apex Corp |
+| 2020-08~2020-08 | (Apex Corp)-[:SOLD_PROJECT]->(NovaTech) | NovaTech sold the ownership rights of Project Chronos to Apex Corp |
+| 2020-08~Present | (NovaTech)-[:SOLD_PROJECT]->(Bob Miller) | NovaTech sold the ownership rights of Project Chronos to Apex Corp |
+| 2020-08~Present | (NovaTech)-[:SOLD]->(Sarah Jenkins) | NovaTech sold the ownership rights of Project Chronos to Apex Corp |
+| 2021-03~Present | (OmniGlobal)-[:DISMISSED]->(Apex Corp) | Bob Miller was dismissed as CEO of NovaTech |
+| 2021-03~Present | (Apex Corp)-[:DISMISSED]->(NovaTech) | Bob Miller was dismissed and Sarah Jenkins was appointed as the new CEO of NovaTech |
+| 2021-03~Present | (NovaTech)-[:DISMISSED]->(Bob Miller) | Bob Miller was dismissed as the CEO of NovaTech |
+| 2021-03~Present | (NovaTech)-[:APPOINTED_CEO]->(Bob Miller) | Sarah Jenkins was appointed as the new CEO of NovaTech |
+| 2021-03~Present | (NovaTech)-[:APPOINTED]->(Sarah Jenkins) | Sarah Jenkins was appointed as the CEO of NovaTech |
+| 2021-11~Present | (OmniGlobal)-[:ACQUIRED]->(Apex Corp) | OmniGlobal acquired Apex Corp, gaining full ownership of Project Chronos |
+| 2022-11~Present | (Apex Corp)-[:ACQUIRED]->(NovaTech) | OmniGlobal acquired Apex Corp, taking full ownership of Project Chronos |
+| 2022-11~Present | (NovaTech)-[:ACQUIRED]->(Bob Miller) | OmniGlobal acquired Apex Corp |
+| 2022-11~Present | (NovaTech)-[:ACQUIRED]->(Sarah Jenkins) | OmniGlobal acquired Apex Corp, taking full ownership of Project Chronos |
+| 2024-02~Present | (OmniGlobal)-[:SPUN_OFF]->(Apex Corp) | OmniGlobal spun off its AI division and sold Project Chronos to Vertex AI |
+| 2024-02~Present | (Apex Corp)-[:SPUN_OFF]->(NovaTech) | OmniGlobal spun off its AI division and sold Project Chronos to Vertex AI |
+| 2024-02~Present | (NovaTech)-[:SPUN_OFF]->(Bob Miller) | OmniGlobal spun off its AI division |
+| 2024-02~Present | (NovaTech)-[:SPUN_OFF]->(Sarah Jenkins) | OmniGlobal spun off its AI division and sold Project Chronos to Vertex AI |
+| 2024-04~Present | (OmniGlobal)-[:RE-APPOINTED_CEO]->(Apex Corp) | Bob Miller was re-appointed as the acting CEO of NovaTech |
+| 2024-04~Present | (Apex Corp)-[:RE-APPOINTED_CEO]->(NovaTech) | Bob Miller was re-appointed as the acting CEO of NovaTech |
+| 2024-04~Present | (NovaTech)-[:RE-APPOINTED_CEO]->(Bob Miller) | Bob Miller was re-appointed as the acting CEO of NovaTech |
+| 2024-04~Present | (NovaTech)-[:RE-APPOINTED]->(Sarah Jenkins) | Bob Miller was re-appointed as the acting CEO of NovaTech following Sarah Jenkins' sudden resignation |
+| April 2024~Present | (OmniGlobal)-[:RE-APPOINTED_CEO]->(NovaTech) | Bob Miller was re-appointed as the acting CEO of NovaTech |
+| April 2024~Present | (NovaTech)-[:RE-APPOINTED]->(Vertex AI) | Bob Miller was re-appointed as the acting CEO of NovaTech |
+| April 2024~Present | (NovaTech)-[:RE-APPOINTED_CEO]->(Dr. Alice Vance) | Bob Miller was re-appointed as the acting CEO of NovaTech |
+| August 2020~Present | (OmniGlobal)-[:SOLD_PROJECT]->(NovaTech) | NovaTech sold the ownership rights of Project Chronos to Apex Corp |
+| August 2020~Present | (NovaTech)-[:SOLD]->(Vertex AI) | NovaTech sold the ownership rights of Project Chronos to Apex Corp |
+| August 2020~Present | (NovaTech)-[:SOLD_PROJECT]->(Dr. Alice Vance) | NovaTech sold the ownership rights of Project Chronos to Apex Corp |
+| February 2024~Present | (OmniGlobal)-[:SOLD_PROJECT]->(NovaTech) | OmniGlobal spun off its AI division and sold Project Chronos to Vertex AI |
+| February 2024~Present | (NovaTech)-[:SOLD]->(Vertex AI) | OmniGlobal spun off its AI division and sold Project Chronos to Vertex AI |
+| February 2024~Present | (NovaTech)-[:SPUN_OFF]->(Dr. Alice Vance) | OmniGlobal spun off its AI division and sold Project Chronos to Vertex AI |
+| January 2017~Present | (OmniGlobal)-[:FOUNDED]->(NovaTech) | NovaTech was founded by Dr. Alice Vance |
+| January 2017~Present | (NovaTech)-[:FOUNDED]->(Vertex AI) | NovaTech was founded by Dr. Alice Vance |
+| January 2017~August 2020 | (NovaTech)-[:INITIATED]->(Vertex AI) | NovaTech initiated the development of Project Chronos |
+| January 2017~Present | (NovaTech)-[:FOUNDED]->(Dr. Alice Vance) | Dr. Alice Vance founded NovaTech |
+| January 2017~May 2019 | (NovaTech)-[:SERVED_AS_FIRST_CEO]->(Dr. Alice Vance) | Dr. Alice Vance served as the first CEO of NovaTech |
+| March 2021~Present | (OmniGlobal)-[:DISMISSED]->(NovaTech) | Bob Miller was dismissed as CEO of NovaTech |
+| March 2021~Present | (OmniGlobal)-[:APPOINTED_CEO]->(NovaTech) | Sarah Jenkins was appointed as the new CEO of NovaTech |
+| March 2021~Present | (NovaTech)-[:APPOINTED]->(Vertex AI) | Sarah Jenkins was appointed as the new CEO of NovaTech |
+| March 2021~Present | (NovaTech)-[:DISMISSED]->(Dr. Alice Vance) | Bob Miller was dismissed as CEO of NovaTech |
+| March 2021~Present | (NovaTech)-[:APPOINTED_CEO]->(Dr. Alice Vance) | Sarah Jenkins was appointed as the new CEO of NovaTech |
+| May 2019~Present | (OmniGlobal)-[:APPOINTED_CEO]->(NovaTech) | Bob Miller was appointed as the CEO of NovaTech |
+| May 2019~November 2022 | (NovaTech)-[:APPOINTED]->(Vertex AI) | Bob Miller was appointed as the CEO of NovaTech |
+| May 2019~Present | (NovaTech)-[:STEP_DOWN]->(Dr. Alice Vance) | Dr. Alice Vance stepped down as CEO of NovaTech |
+| May 2019~Present | (NovaTech)-[:APPOINTED_CEO]->(Dr. Alice Vance) | Bob Miller was appointed as the new CEO of NovaTech |
+| November 2022~Present | (OmniGlobal)-[:ACQUIRED]->(NovaTech) | OmniGlobal acquired Apex Corp |
+| November 2022~Present | (NovaTech)-[:ACQUIRED]->(Vertex AI) | OmniGlobal acquired Apex Corp, taking full ownership of Project Chronos |
+| November 2022~Present | (NovaTech)-[:ACQUIRED]->(Dr. Alice Vance) | OmniGlobal acquired Apex Corp and took full ownership of Project Chronos |
